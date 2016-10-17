@@ -20,7 +20,7 @@ Simply add class to input field and then create new validation object for a form
 	<input type="submit" name="age">
 </form>
 ```
-And Then create validation object.
+## And Then create validation object.
 ```javascript
 
 var validate = new Validate({
@@ -29,5 +29,11 @@ var validate = new Validate({
 });
 ```
 
+
+## Validation Rules
+```
+
+
+```
 
 
