@@ -1,4 +1,4 @@
-# javascript-form-validation
+# Javascript-form-validation
 
 This javascript library is totaly based on javascript no jquery. So you do not worry about confilct.
 
@@ -24,6 +24,7 @@ For example
 
 And Then create validation object.
 <script>
+
 var validate = new Validate({
 	"FormName" : 'form2',
 	"ErrorLevel" : 0,
