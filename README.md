@@ -1,14 +1,12 @@
 # Javascript-form-validation
 
-This javascript library is totaly based on javascript. So you do not worry about confilct.
+This javascript library is lightweight.
 
-Uses
 
 Simply add class to input field and then create new validation object for a form.
 
-For example
---------------------
-
+## How to use
+```
 <form name="form2" id="form2" class="rs-form">
 	<div class=" test ">
 		<input type="text" name="name" value="" class="">
@@ -21,15 +19,15 @@ For example
 	</div>
 	<input type="submit" name="age">
 </form>
-
+```
 And Then create validation object.
-<script>
+```javascript
 
 var validate = new Validate({
 	"FormName" : 'form2',
 	"ErrorLevel" : 0,
 });
+```
 
-</script>
 
 
