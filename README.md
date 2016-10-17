@@ -1,6 +1,6 @@
 # javascript-form-validation
 
-This javascript library is totaly based on javascript no jquery. So you do not want worry about confilct.
+This javascript library is totaly based on javascript no jquery. So you do not worry about confilct.
 
 Uses
 
