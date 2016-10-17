@@ -32,14 +32,15 @@ var validate = new Validate({
 
 ## Validation Rules
 
-|S.No|Rules|Purpuse|
-|1|required|Required
-|2|valid-email| Valid Email|
-|3|numeric| Numeric Value only|
-|4|float| Float value only|
-|5|minlength-2|Minimum lenght|
-|6|maxlength-3| Max length|
-|7|valid-filetype|Check valid file|
-|8|between-2-4|Field length|
-|9|valid_url|Valid url|
+S.No|Rules|Purpuse
+---|---|---
+1|required|Required
+2|valid-email| Valid Email
+3|numeric| Numeric Value only
+4|float| Float value only
+5|minlength-2|Minimum lenght
+6|maxlength-3| Max length
+7|valid-filetype|Check valid file
+8|between-2-4|Field length
+9|valid_url|Valid url
 
