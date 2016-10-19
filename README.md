@@ -29,6 +29,19 @@ var validate = new Validate({
 });
 ```
 
+## You can set callbank
+```javascript
+
+var validate = new Validate({
+	"FormName" : 'form2',
+	"ErrorLevel" : 0,
+	callback : function() {
+		
+		alert('All things are correct.');
+
+	}
+});
+```
 
 ## Validation Rules
 
@@ -43,4 +56,4 @@ S.No|Rules|Purpuse
 7|valid-filetype|Check valid file
 8|between-2-4|Field length
 9|valid_url|Valid url
-
+ 
