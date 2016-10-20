@@ -29,7 +29,7 @@ var validate = new Validate({
 });
 ```
 
-## You can set callbank
+## You can set callback
 ```javascript
 
 var validate = new Validate({
