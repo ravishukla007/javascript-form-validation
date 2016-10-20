@@ -60,5 +60,19 @@ S.No|Rules|Purpuse
 ## Property
 
 S.No|Property|Type|Purpuse
----|---|---
+---|---|---|---
 1|FormName|string|Name of form
+2|ErrorLevel|numeric|Where we want to add error class
+3|callback|function|Plugin will invode callback
+4|validateHidden|boolean|Using this you can validate field include hidden or exclude hidden
+5|RequiredMsg|string|You can change required msg
+6|EmailMsg|string|You can change email msg
+7|NumericMsg|string|You can change numeric value msg
+8|FloatMsg|string|You can change float value msg
+9|MinValueMsg|string|You can change min value msg
+10|MaxValueMsg|string|You can change max value msg
+11|ValidFileMsg|string|You can change valid file msg
+12|BetweenMsg|string|You can change between value msg
+13|AlphaNumericMsg|string|You can change alphanumeric value msg
+14|ValidUrlMsg|string|You can change valid url msg
+                
