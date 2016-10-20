@@ -59,6 +59,6 @@ S.No|Rules|Purpuse
  
 ## Property
 
-S.No|Property|Input Type|Purpuse
+S.No|Property|Type|Purpuse
 ---|---|---
 1|FormName|string|Name of form
