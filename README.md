@@ -42,6 +42,10 @@ var validate = new Validate({
 	}
 });
 ```
+## Reset your validation rules
+```javascript
+validate.prepare();
+```
 
 ## Validation Rules
 
