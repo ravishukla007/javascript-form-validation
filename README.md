@@ -41,10 +41,12 @@ CREATE TABLE `messages` (
   `id` int(11) NOT NULL,
   `userId` int(11) NOT NULL,
   `toId` int(11) NOT NULL,
-  `msg` text NOT NULL,
+  `msg` mediumtext COLLATE utf8mb4_bin NOT NULL,
+  `type` int(1) UNSIGNED NOT NULL DEFAULT '0' COMMENT '0 / null = text, 1 = image, 2=video',
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `read_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+
 
 ```
 
@@ -89,11 +91,11 @@ RSChat.start('user_id', 'username')
 
 S.No|Options|Type|Purpuse
 ---|---|---|---
-1|emoji(optional)|bool|Enable emoji feature or not
+1|emoji(optional)|Bool|Enable emoji feature or not
 3|iconSize(optional)|Integer|Emoji size
-2|media(optional)|bool|Enable / Disable media
-4|assetPath(optional)|String|Asset path for the media
-6|supportedFile(optional)|array|Supported media file
+2|media(optional)|Bool|Enable / Disable media
+4|assetPath|String|Asset path for the media
+6|supportedFile(optional)|Array|Supported media file
 5|invalidFileMessage(optional)|String|Message on wrong media file
 7|perPage(optional)|Integer|Pagination for the chat list
 8|marginRight(optional)|Integer|Margin for each chat window
